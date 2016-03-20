@@ -1,0 +1,13 @@
+1. Rewrite your email and password into files:
+  exchange.pl
+  minergate_create_token.pl
+  yandex_money_create_token.pl
+
+2. Create minergate token into minergate_token.txt, run
+   minergate_create_token.pl 
+
+3. Create Yandex.Money application. Rewrite yandex_money_client_id.txt, yandex_money_redirect_uri. Create Yandex.Money token into yandex_money_token.txt, run
+   yandex_money_create_token.pl 
+
+4. Run exchange.pl for once, or run exchange_loop.cmd for loop excecute exchange.pl
+
